@@ -1,0 +1,21 @@
+@font-face { 
+font-family: 'spaceranger'; 
+src: url('font/spaceranger.ttf') format('truetype');
+} 
+@font-face { 
+font-family: 'Grinched'; 
+src: url('font/Grinched.ttf') format('truetype');
+} 
+@font-face { 
+font-family: 'digital'; 
+src: url('font/DS-DIGIB.TTF') format('truetype');
+} 
+
+@font-face { 
+font-family: 'bebasneue'; 
+src: url('font/bebasneue.ttf') format('truetype');
+} 
+@font-face { 
+font-family: 'KGP'; 
+src: url('font/KGPrimaryPenmanship.ttf') format('truetype');
+}

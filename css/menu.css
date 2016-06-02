@@ -1,0 +1,82 @@
+#menu.floatable{
+position:fixed;
+width:900px;
+top:0px;
+background:none;
+}
+
+#menu{
+width: 100%;
+z-index:1;
+position:relative;	
+background-color:#363636; /*#5E75F1;*/
+height:31px;
+border-width:0px 0px 0px 0px;
+border-color:#363636; /*#0E2393*/
+letter-spacing:1px;
+}
+
+#opt1,#opt2,#opt3,#opt4,#opt5
+ {	 
+font-family:spaceranger,Impact;
+float: left;
+width:180px;
+text-align:center;
+height:37px;
+border:solid;
+border-color:#000; /*#62E9FF;*/
+border-width:0px 0px 6px 0px; /*Menu haut bas ligne*/ 
+border-radius: 0px 0px 0px 0px;
+}
+
+#opt1>p,#opt2>p,#opt3>p,#opt4>p,#opt5>p{	
+  margin: 10px;
+}
+
+p.menu-text::first-letter
+{ 
+font-size:180%;
+color:#008CFF; /* #262626 */
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+
+p.menu-text:hover:first-letter{
+     font-size:180%;
+     color:red;
+}
+
+
+#menu a{
+font-size:20px;
+color:#000;
+
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#menu a:hover{
+font-size:20px;
+color:#FFF;
+}
+
+
+.menuTransitionBackground #opt1,#opt2,#opt3,#opt4,#opt5{
+    padding:0px;
+    color:white;
+    background:#EEE;
+
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.menuTransitionBackground #opt1:hover,#opt2:hover,#opt3:hover,#opt4:hover,#opt5:hover{
+background:#008CFF;
+border-color:white;
+border-width:0px 0px 8px 0px;
+}

@@ -1,0 +1,138 @@
+.texte-services{
+background-color: #FFF;
+text-align:justify;
+font-family: KGP;
+height:250px;
+text-indent:2em;
+
+}
+.bloc-services {
+width:auto;
+height:auto;
+position:relative;
+
+}
+
+
+/* PAGES */
+#texte-integration{
+width:530px;
+height:auto;
+border: 0px solid black;
+float: left;
+}
+
+#img-integration{
+height:630px;
+padding-left:30px;
+padding-top:60px;
+}
+
+#contenu-integration{
+width: 100%;
+position: relative; 
+overflow:hidden;
+}
+
+#contenu-ecommerce {
+position: relative; 
+overflow:hidden;
+}
+
+#contenu-referencement{
+width: 100%;
+position: relative; 
+overflow:hidden;
+}
+
+#contenu-referencement-payant{
+width: 100%;
+position: relative; 
+overflow:hidden;
+}
+
+#contenu-vitrine{
+width: 100%;
+position: relative; 
+overflow:hidden;
+}
+
+/* PAGES */
+
+
+.service-block{
+float: left;
+width:283px;
+height:283px;
+text-align:center;
+}
+
+.service-block:hover{
+background-color:#1b1b1b;
+width:283px;
+height:283px;
+}
+.service-block p span{
+color:black;
+}
+.service-block:hover p span{
+color:white;
+}
+
+
+.titre-services-list{
+  color:#00BBFF;
+  font-family:KGP;
+  font-size:25px;
+  margin-top:115px;
+  text-align:center;
+}
+#div-services{
+width: 100%;
+height:566px;
+position:relative;	
+background-color:white;
+}
+
+#img-hebergement{
+height:	auto;
+padding-left:30px;
+padding-top:0px;
+}
+
+#img-ecommerce{
+position: relative; 
+height:420px;
+padding-left:30px;
+padding-top:0px;
+}
+
+
+#img-hebergement img{
+padding:30px;
+margin-top:-50px;
+}
+
+.img-hebergement2 {
+margin-top:280px;
+padding:30px;
+}
+.img-hebergement2 img{
+width:220px;
+height:160px;
+}
+
+.img-seo-div {
+text-align:center;
+
+}
+
+.img-seo{
+width:384px;
+height:271px;
+}
+
+.img-sem{
+width:500px;
+height:268px;
+}

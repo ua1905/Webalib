@@ -1,0 +1,247 @@
+#page_contenu {
+	display: none;
+	position: relative;
+	background-color: #E4E4E4;
+	width: 850px;
+	height: auto;
+	margin : auto;
+	margin-bottom: 30px;
+	border: solid 0px #CCCCCC;
+	border-radius: 1px;
+	box-shadow: 0px 0px 10px 0px #808080;
+	font-family: spaceranger;
+	font-size: 20px;
+	line-height: 30px;
+}
+#page_contenu p{
+font-family: KGP;
+padding:0px;
+padding-top:0px;
+padding-bottom:0px;
+/*background-color:white;*/
+}
+
+#page {
+	position: relative;
+	height: auto;
+	width: 900px;
+	background-color: black;
+	align-items: center;
+	margin: auto;
+	margin-left:auto;
+	margin-right:auto;
+	border-color: #969696;        /*#FF7E00 #BEBEBE;*/
+	border-width: 0.8pt 1px 1px 1px;
+	border-style: solid;
+	margin-top: 30px;
+	box-shadow: 0px 0px 10px 5px #808080,
+	v-shadow: -200px;
+}
+
+#content {
+	position: relative;
+/*	height: 100%;
+	width: 100%;*/
+	background-color: #000;
+}
+#donnee {
+	position: relative;
+	padding: 20px 0px 0px 0px;
+	width: 890px;
+	height: auto;
+	margin : auto;
+	margin-bottom: 20px;
+	border: solid 1px;
+	background-color: #F0F0F0; /*#CBCBCB*/
+	border-radius: 1px;
+}
+
+.titre-contenu{
+color:red;
+size:40px;
+}
+
+.sous-titre-contenu{
+color:blue;
+size:20px;
+}
+
+#page-actuel {
+	border-top: 0.8pt solid;
+	border-top-color: black;
+	position: relative;
+	margin-left: 0px;
+	width: 900px;
+	height: 40px;
+	background-color: #1B1B1B;
+	font-size: 14px;
+	color: #E0E0E0;
+}
+
+
+#page-actuel p{
+color:white;
+font-size:20px;
+font-family: KGP;
+}
+
+#page-actuel a:hover{
+color:blue;
+font-size:20px;
+font-family: KGP;
+}
+
+.titre-contenu {
+	text-align:left;
+	color: #00bbff;
+	font-family: KGP;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.titre-h2{
+margin-left: 15px;
+font-size: 25px;
+color: #FFF;
+font-family: KGP;
+background-color:#00BBFF;
+border-radius:5px;
+width:400px;padding:10px;
+text-align:center;
+}
+.titre-h2:hover {
+background-color:#1B1B1B;
+margin-left: 15px;
+font-size: 25px;
+color: #00BBFF;
+font-family: KGP;
+border-radius:5px;
+width:400px;padding:10px;
+align:center;
+}
+.titre-fond {
+	width: auto; 
+	height: 50px;
+	border-top: 0.8pt solid;
+	border-top-color: black;
+	position: relative;
+	margin-left: 0px;
+	background-color: #1B1B1B;
+	font-size: 14px;
+	color: #E0E0E0;
+}
+#contenu-texte {
+	
+	border: 0px solid black;
+	width: auto; 
+	height: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background:#FFF;
+	border-radius: 0px;
+	border: 1px white solid;
+}
+
+
+#contenu-texte p {
+	font-family: Stretch;
+	margin: 20px;
+	font-size: 20px;
+	color: #2F2F2F;
+	text-shadow: 1px 1px 3px #8F8F8F;
+	text-align: justify;
+	transition-duration: 3s;
+}
+
+#contenu-texte-index {
+	border: 0px solid black;
+	width: auto; 
+	height: 1400px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background:#FFF;
+	border-radius: 0px;
+	border: 1px white solid;
+}
+
+#contenu-texte-index p {
+	font-family: Stretch;
+	margin: 20px;
+	font-size: 20px;
+	color: #2F2F2F;
+	text-shadow: 1px 1px 3px #8F8F8F;
+	text-align: justify;
+}
+
+#aside1 {
+	display: none;
+	background-color: #FFFFFF; /*#DBDBDB*/
+	background-position: center;
+	width: 850px;
+	height: 100px;
+	margin : auto;
+	margin-bottom: 20px;
+	border: solid 1px #2ECCFA;/*#E9E9E9*/
+	border-radius: 1px;
+	box-shadow: 0px 0px 10px 0px #808080;
+	position: relative;
+}
+#aside1 p {
+	z-index: 3;
+	font-family: spaceranger;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 100px;
+	color: #212121;
+}
+#slider-contenu {
+	background-color: #CDCDCD; /*#DBDBDB*/
+	width: 810px;
+	height: auto;
+	margin : auto;
+	margin-bottom: 20px;
+	border: solid 0px #CCCCCC;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #808080;
+	position: relative;
+}
+
+#aside1:hover {
+	background-color: white;
+	background-position: center;
+	width: 850px;
+	height: 100px;
+	margin : auto;
+	margin-bottom: 20px;
+	border: solid 1px #2ECCFA;
+	border-radius: 1px;
+	box-shadow: 0px 0px 8px 0px #808080;
+}
+
+.titre-h2-accueil{
+margin:10px;
+font-size: 25px;
+color: #FFF;
+font-family: KGP;
+background-color:#00BBFF;
+border-radius:5px;
+width:240px;padding:10px;
+text-align:center;
+float:left;
+
+}
+.titre-h2-accueil:hover {
+background-color:#1B1B1B;
+font-size: 25px;
+color: #00BBFF;
+font-family: KGP;
+border-radius:5px;
+width:240px;padding:10px;
+}
+
+#itemAccueil{
+  width:100%;
+}

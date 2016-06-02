@@ -1,0 +1,119 @@
+*::selection {
+	background: #3F3; /*#cc2a00*/
+	color: #fff;	
+	
+}
+ *::-moz-selection {
+background:#cc2a00;
+color:#fff;
+}
+ *::-webkit-selection {
+background:#cc2a00;
+color:#fff;
+}
+
+#barreNoir {
+	margin-top: 0px;
+	width: auto;
+	height: 1px;
+	background-color: #000;
+	position: relative;
+	border: thick;
+}
+.barre {
+	margin-top: 10px;
+	width: auto;
+	height: 3px;
+	background-color: #00BBFF;
+	position: relative;
+	border: thick;
+}
+.barre2 {
+	width: auto;
+	height: 3px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+#barre_vertical_bleu {
+	margin-left: 210px;
+	width: 0px;
+	height: 90px;
+	border: 5px #00BBFF solid;
+	position: absolute;
+}
+#barre_vertical_red {
+	margin-left: 110px;
+	width: 0px;
+	height: 90px;
+	border: 1px #F40004 solid;
+	position: absolute;
+}
+#barre_vertical_blanc {
+	margin-top: -1px;
+	margin-left: 24px;
+	width: 0px;
+	height: 98px;
+	border: 2px #FFFFFF solid;
+	position: absolute;
+}
+#barre_vertical_blue {
+	margin-top: -1px;
+	margin-left: 20px;
+	width: 0px;
+	height: 98px;
+	border: 2px #00BBFF solid;
+	position: absolute;
+}
+#barre_vertical_green {
+	margin-left: 435px;
+	width: 0px;
+	height: 90px;
+	border: 4px #2BDB00 solid;
+	position: absolute;
+}
+#barre_vertical_yellow {
+	margin-left: 640px;
+	width: 0px;
+	height: 90px;
+	border: 2px #FFDD00 solid;
+	position: absolute;
+}
+#tab-titre {
+	position: relative;
+}
+.hr2 {width:1px;height:260px;background-color:#FFFFFF;position:absolute;top:10px;left:240px;z-index:10;}
+.hr3{width:1px;height:260px;background-color:#FFFFFF;position:absolute;top:10px;left:480px;z-index:10;}
+.hr4 {width:1px;height:260px;background-color:#FFFFFF;position:absolute;top:10px;left:720px;z-index:10;}
+
+.f-creation-list {
+	margin-left: 0px;
+	color: black;
+	font-size: 19px;
+	line-height: 18px;
+	font-family:KGP;
+	text-align: center;
+}
+.f-barre-vertical_contact {
+	position: absolute;
+	width: 0.1px;
+	border-color: #949494;
+	size:280px;
+	margin-left:460px;
+}
+#iframe_align {
+	margin-top: 0px;
+}
+#iniframe {
+	border: none;
+}
+
+.tbody-url{
+border:1px black solid;
+}
+
+.tbody-url tr td,.tbody-url tr th{
+font-family:KGP;
+font-size:18px;
+border:1px black solid;
+padding:2px;
+}

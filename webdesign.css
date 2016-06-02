@@ -1,0 +1,61 @@
+@import url("css/design.css");
+@import url("css/panneau.css");
+@import url("css/menu.css");
+@import url("css/font-face.css");
+@import url("css/basic.css");
+@import url("css/footer.css");
+@import url("css/header.css");
+@import url("css/corps.css");
+@import url("css/services.css");
+@import url("css/formulaire.css");
+@import url("css/glide.css");
+@import url("css/realisations.css");
+@import url("css/slider.css");
+@import url("css/pages.css");
+@import url("sl/css/style.css");
+@import url("sl/css/stimenu.css");
+ 
+@font-face {
+  font-family: 'Wire One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Wire One'), local('WireOne'), url(css/font/hautfont.woff) format('woff');
+}
+
+body{
+background-color:#000000;
+}
+
+#header {
+	margin-left: 0px;
+	background-color: white; /*#FF0004*/
+	height: 400px;
+	width: 900px;
+	opacity: 1;
+	background-image: url('images/header-background.jpg');
+}
+
+#headerbase {
+/*	padding: 0px;
+	margin: 0;*/
+	font: .74em Arial, sans-serif;
+	line-height: 1.5em;
+	background: #fff url('images/top.jpg') repeat-x top;
+	color: #454545;
+	background-color:#5E5E5E;
+	/*background-attachment:fixed;*/
+
+}
+
+.img_cote {
+	position: absolute;
+	z-index: 3000;
+	top: 0px;
+	left: 0px;
+	background-image: url(images/cote.png);
+	height: 135px;
+	width: 135px;
+}
+.img_cote:hover {
+}
+

@@ -1,0 +1,160 @@
+#haut-barre {
+	z-index: 3;
+	position: relative;
+	margin-left:0px;
+	width: 900px;
+	height: 39px;
+	background-color: #2E2E2E;
+	font-size: 14px;
+	color: #E0E0E0;
+}
+#haut-barre p {/* Ligne haut*/
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+#logo{
+	 width:240px; 
+	 height:106px;
+}
+
+.logologo {
+background-size: cover;
+width: 240px;
+height: 106px;
+}
+
+#place-heure{
+	display: none;
+	margin-top:0px;
+}
+p #date_heure {
+	font-size:14px;
+	color: white;
+	line-height: 18px;
+	letter-spacing: 1px;
+	font-family: digital;
+}
+
+#social-icons {
+	display: none;
+	margin-top:-33px;
+	margin-left: 707px;
+	height: auto;
+	border: 0px solid;
+}
+#icon1 {
+	margin-left: 10px;
+}
+#icon2 {
+	margin-left: 45px;
+}
+#icon3 {
+	margin-left: 80px;
+}
+#icon4 {
+	margin-left: 115px;
+}
+#icon5 {
+	margin-left: 150px;
+}
+#icon1, #icon2, #icon3, #icon4,#icon5 {
+	height: 29px;
+	position: absolute;
+	margin-top: 3px;
+	width: 30px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+#icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover,#icon5:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+}
+#social-icons a:hover{
+
+}
+/*
+#aside0 {
+	z-index:2;
+	opacity: 0.8;
+	background-color: white;
+	background-position: center;
+	width: 630px;
+	height: 334px;
+	margin : auto;
+	border: solid 1px white;
+	
+	border-radius: 0px 0px 0px 0px;
+	box-shadow: 0px 0px 10px 0px #808080;
+	font-family: spaceranger;
+	font-size: 100px;
+	margin-left: 250px;
+	margin-top: -2px;
+	padding-bottom: 0px;
+}
+*/
+#aside0 {
+  display:none;
+  background-position:50% 50%;
+  border:0px solid #A4A4A4;
+  border-radius:0px;
+  box-shadow:#808080 0 0 0px 0;
+  font-family:spaceranger;
+  font-size:100px;
+  height:335px;
+  margin:-2px auto auto 270px;
+  opacity:0.7;
+  padding-bottom:0;
+  width:685px; 
+  z-index:2;
+}
+
+
+#aside0 p {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#slogan {
+	display:none;
+	width: 220px;
+	height:35px;
+	position: absolute;
+	opacity: 0.8;
+	background-color: white; /*#DBDBDB*/
+	background-position: center;
+	border: solid 1px #CCCCCC;
+	border-radius: 0px;
+	box-shadow: 0px;
+	margin-left: 25px;
+	margin-top: 235px;
+} 
+#slogan p {
+	opacity: 1;
+	font-family: 'Oswald';
+	color: #000000;
+	font-size: 14px;
+	margin: 5px;
+	letter-spacing: 1px;
+	line-height: 14px;
+/*	font-style: italic;
+	font-weight: bold;
+*/
+	text-align: center;
+	
+}
+#logo {
+	display: none;
+	margin-left: 5px;
+	margin-top: 70px;
+	position: absolute;
+}
+#slogan p span{
+color:red;
+}
